@@ -12,6 +12,12 @@ public class Salad implements MenuItem{
         this.ingredients=ingredients;
     }
 
+    public Salad() {
+        this.name=" ";
+        this.price=0;
+        this.ingredients=" ";
+    }
+
     @Override
     public String getName(){
         return name;

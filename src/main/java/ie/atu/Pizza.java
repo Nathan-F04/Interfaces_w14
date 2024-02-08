@@ -12,6 +12,12 @@ public class Pizza implements MenuItem{
         this.ingredients=ingredients;
     }
 
+    public Pizza() {
+        this.name=" ";
+        this.price=0;
+        this.ingredients=" ";
+    }
+
     @Override
     public String getName(){
         return name;
