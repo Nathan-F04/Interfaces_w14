@@ -6,9 +6,12 @@ public class OnlineOrderingSystem {
           //add menu items here
 
 
-            new Burger("Cheese Burger",2.5,"Buns,Hamburger,Cheese"),
+            new Burger("Cheese Burger",2.5,"Buns,Hamburger,Cheese,Lettuce"),
+            new Burger("Regular Burger",2.25,"Buns,Hamburger,Lettuce"),
             new Pizza("Pepperoni Pizza",14.0,"Cheese,Mozzarella,Dough,Tomato sauce"),
-            new Salad("Regular Salad",5.75,"Lettuce,Chicken,Tomatoes")
+            new Salad("Regular Salad",5.75,"Lettuce,Chicken,Tomatoes"),
+            new Dessert("Sundae",9.80,"Ice cream,Chocolate sauce,Cherries,Cream")
+
         };
 
 
