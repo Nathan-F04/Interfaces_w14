@@ -11,6 +11,12 @@ public class Burger implements MenuItem{
         this.ingredients=ingredients;
     }
 
+    public Burger() {
+        this.name = " ";
+        this.ingredients = " ";
+        this.price = 0;
+    }
+
     @Override
     public String getName(){
         return name;
@@ -26,4 +32,15 @@ public class Burger implements MenuItem{
         return ingredients;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public void setIngredients(String ingredients) {
+        this.ingredients = ingredients;
+    }
 }
